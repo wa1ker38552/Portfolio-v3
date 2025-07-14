@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caden Chau</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://lib.reklaw.dev/styles/minimalistic.css">
+        <link rel="stylesheet" href="styles/globals.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="https://lib.reklaw.dev/lib.js"></script>
+        <script src="scripts/tabs.js"></script>
+        <script src="scripts/projects.js"></script>
+        <script src="scripts/script.js"></script>
+    </head>
+    <body>
+        <div class="desktop">
+            <div class="modal-background centered-children" id="skillsModal" style="display: none">
+                <div class="modal window">
+                    <h2 class="main-header">SKILLS</h2>
+                    <div class="label">Some technology I work with and am familiar with</div>
+
+                    <div class="break"></div>
+                    <div class="language-container">
+                        <div class="tag centered-children language-py"><div class="progress" style="width: 100%"></div><div class="progress-number">100%</div><span>.py</span></div>
+                        <div class="tag centered-children language-html"><div class="progress" style="width: 100%"></div><div class="progress-number">100%</div><span>.html</span></div>
+                        <div class="tag centered-children language-css"><div class="progress progress-incomplete" style="width: 90%"></div><div class="progress-number">90%</div><span>.css</span></div>
+                        <div class="tag centered-children language-js"><div class="progress progress-incomplete" style="width: 80%"></div><div class="progress-number">80%</div><span>.js</span></div>
+                        <div class="tag centered-children language-lua"><div class="progress progress-incomplete" style="width: 70%"></div><div class="progress-number">70%</div><span>.lua</span></div>
+                        <div class="tag centered-children language-java"><div class="progress progress-incomplete" style="width: 70%"></div><div class="progress-number">70%</div><span>.java</span></div>
+                        <div class="tag centered-children language-swift"><div class="progress progress-incomplete" style="width: 40%"></div><div class="progress-number">40%</div><span>.swift</span></div>
+                        <div class="tag centered-children language-c"><div class="progress progress-incomplete" style="width: 30%"></div><div class="progress-number">30%</div><span>.c</span></div>
+                        <div class="tag centered-children language-c"><div class="progress progress-incomplete" style="width: 20%"></div><div class="progress-number">20%</div><span>.cpp</span></div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="language-container">
+                        <div class="technology">aws</div>
+                        <div class="technology">azure</div>
+                        <div class="technology">beautifulsoup</div>
+                        <div class="technology">blender</div>
+                        <div class="technology">clerk</div>
+                        <div class="technology">cloudfare</div>
+                        <div class="technology">contabo</div>
+                        <div class="technology">digital ocean</div>
+                        <div class="technology">discord.py</div>
+                        <div class="technology">firebase</div>
+                        <div class="technology">flask</div>
+                        <div class="technology">git</div>
+                        <div class="technology">github</div>
+                        <div class="technology">google cloud compute</div>
+                        <div class="technology">google oauth</div>
+                        <div class="technology">gunicorn</div>
+                        <div class="technology">javafx</div>
+                        <div class="technology">jinja</div>
+                        <div class="technology">modal</div>
+                        <div class="technology">mongodb</div>
+                        <div class="technology">mui</div>
+                        <div class="technology">next.js</div>
+                        <div class="technology">opencv</div>
+                        <div class="technology">pil</div>
+                        <div class="technology">pypi</div>
+                        <div class="technology">pytesseract</div>
+                        <div class="technology">pyqt</div>
+                        <div class="technology">react</div>
+                        <div class="technology">roblox studio</div>
+                        <div class="technology">selenium</div>
+                        <div class="technology">socket.io</div>
+                        <div class="technology">sql</div>
+                        <div class="technology">sqlite</div>
+                        <div class="technology">supabase</div>
+                        <div class="technology">swagger</div>
+                        <div class="technology">swiftui</div>
+                        <div class="technology">vercel</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-background centered-horizontally" id="projectsModal" style="display: none;">
+                <div class="modal window" style="width: 60rem; position: absolute; top: 10rem;">
+                    <h2 class="main-header">PROJECTS</h2>
+                    <div class="gap"></div>
+                    <div class="horizontal-container">
+                        <button class="glass-button fira-code glass-button-selected" onclick="setProjectView(0, this)">APPS</button>
+                        <button class="glass-button fira-code" onclick="setProjectView(1, this)">SCRIPTS</button>
+                    </div>
+                    <div class="break"></div>
+                    <div class="app-container"></div>
+                    <div class="script-container" style="display: none"></div>
+                    <div class="gap"></div>
+                    <div class="label" style="color: rgb(255, 255, 255, 0.5);">Hundreds more on my <a href="https://github.com/wa1ker38552" target="_blank">Github</a></div>
+                </div>
+            </div>
+            <div class="modal-background centered-children" id="contactModal" style="display: none">
+                <div class="modal window">
+                    <div class="horizontal-container">
+                        <h2 class="main-header">CONTACT</h2>
+                        <div class="label">(and socials)</div>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="social-container">
+                        <a class="social-item" href="https://github.com/wa1ker38552" target="_blank"><img src="assets/icon_github.png"></a>
+                        <a class="social-item" href="mailto:caden@cadenchau.com"><img src="assets/icon_gmail.png"></a>
+                        <a class="social-item" href="https://code.golf/golfers/wa1ker38552" target="_blank" style="padding: 7px"><img src="https://code.golf/dist/svg/logo-GMBRZDJL.svg#a"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="centered-children center-helper">
+                <div class="window" style="width: 40rem">
+                    <h1 class="main-header">CADEN CHAU</h1>
+                    <div class="label">Developer • Student</div>
+                    <div class="gap"></div>
+                    Hi! I'm Caden, an avid coder and fullstack developer. I'm <span id="age">  </span> years old and have been coding for <span id="years">  </span> years. I love developing applications that focus on usability, automation, and UI/UX. Some of my interest include web development, API's, webscraping, bots, and automation. 
+                    <div id="moreText" style="display: none">
+                        <div class="break"></div>
+                        I got into coding after messing around with scripts to automate work. From there, I've tought myself pretty much everything I know today by looking at tutorials and thinking of new projects. When I'm not coding, I'm probably gaming, 3d modeling, or reading. 
+                    </div>
+                    <span class="accent" id="textMore" onclick="toggleText()">more</span>
+                </div>
+                <div class="portfolio-button-container" style="width: 40rem;">
+                    <button class="window" onclick="animateOpenModal(dquery('#skillsModal'))">Skills</button>
+                    <button class="window" onclick="animateOpenModal(dquery('#projectsModal'))">Projects</button>
+                    <button class="window" onclick="animateOpenModal(dquery('#contactModal'))"">Contact</button>
+                </div>
+            </div>
+            <div id="notepadApp" class="centered-children center-helper" style="display: none">
+                <div class="window notepad-app-window" style="width: 50rem; height: 20rem">
+                    <div class="notepad-app-header horizontal-container">
+                        <img src="assets/icon_notepad.png">
+                        <div class="horizontal-container" id="tabContainer"></div>
+                    </div>
+                    <textarea class="notepad-content" spellcheck="false"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="navigation horizontal-container">
+            <div class="centered-children tooltip-container">
+                <img class="app" src="assets/icon_windows.png">
+                <div class="tooltip">Apple can't support games and doesn't have enough control; Linux is too nerdy and also doesn't have enough support for apps. Windows on top!</div>
+            </div>
+            <div class="centered-children tooltip-container">
+                <img class="app" src="assets/icon_file_explorer.png">
+                <div class="tooltip">The taskbar looks a little weird without a file explorer icon...</div>
+            </div>
+            <div class="centered-children tooltip-container">
+                <img class="app" style="image-rendering: auto;" src="assets/icon_brave.png">
+                <div class="tooltip">Adblock, less resources, tor browser, and sheilds? Easy choice. (800k+ trackers blocked and 22GB of bandwidth saved so far)</div>
+            </div>
+            <div class="centered-children tooltip-container">
+                <img class="app" style="image-rendering: auto;" src="assets/icon_discord.png">
+                <div class="tooltip">I'll probably respond here the fastest haha</div>
+            </div>
+            <div class="centered-children tooltip-container">
+                <img class="app" src="assets/icon_vscode.png">
+                <div class="tooltip">My go-to ide. Atom One Dark + Fira Code just looks too clean</div>
+            </div>
+            <div class="centered-children tooltip-container">
+                <img class="app" src="assets/icon_paint.net.png">
+                <div class="tooltip">From editing and touching up images to making icons and drawings, I do them from paint.net. It's just so easy and simple to use</div>
+            </div>
+            <div class="centered-children tooltip-container">
+                <img class="app" src="assets/icon_putty.png">
+                <div class="tooltip">Just makes ssh'ing into my server so much easier</div>
+            </div>
+            <div class="centered-children tooltip-container">
+                <img class="app" src="assets/icon_winscp.png">
+                <div class="tooltip">SCP, FTP, yada yada yada. Bro just use WinSCP and do it visually. Drag, drop, and done!!</div>
+            </div>
+            <div class="centered-children tooltip-container" onclick="toggleApp(dquery('#notepadApp'), this)">
+                <img class="app" src="assets/icon_notepad.png">
+                <div class="active-stub"></div>
+            </div>
+        </div>
+    </body>
+</html>
