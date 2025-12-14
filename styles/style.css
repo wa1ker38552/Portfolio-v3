@@ -462,3 +462,48 @@ a {
     border-radius: 9999px;
     background-color: rgb(255, 255, 255, 0.3);
 }
+
+.legacy-badge-container {
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    z-index: 9999;
+}
+
+.legacy-badge {
+    position: relative;
+    height: 50px;
+    width: 3rem;
+    background: rgb(255, 255, 255, 0.3);
+}
+
+.legacy-badge:hover .badge-border {
+    text-decoration: underline;
+}
+
+.arrow-down {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+    border-top: calc(1.5rem - 10px) solid rgb(255, 255, 255, 0.3);
+    bottom: calc(-1.5rem + 10px);
+}
+
+.badge-border {
+    background: rgb(255, 255, 255, 0.2);
+    margin: 0 5px;
+    height: 46px;
+    color: white;
+}
+
+.arrow-down-embeded {
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: calc(1.5rem - 5px) solid transparent;
+    border-right: calc(1.5rem - 5px) solid transparent;
+    border-top: calc(1.5rem - 13px) solid rgb(255, 255, 255, 0.2);
+    bottom: calc(-1.5rem + 17px);
+}
